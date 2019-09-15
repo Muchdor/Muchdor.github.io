@@ -1,0 +1,16 @@
+h1{
+	padding: 40px;
+	position: 50%;
+	text-align: center;
+	top: 50%;
+	font-family: "Comic sans MS";
+
+}
+
+body{
+			background-image: url(Background_1.jpg);
+			background-size: cover;
+			background-attachment: fixed;
+
+	}
+
