@@ -2,54 +2,40 @@
 <html>
 <head>
 	<title>Form Data Diri</title>
-	<h1><br>
-	Data Diri</h1>
+
 	<link rel="stylesheet" type="text/css" href="style_latihan 2.css">
-	
-	</style>
 </head>
 <body>
-	<form>
-	<table align="center" style="border-spacing: 5px; font-family: Comic Sans MS"><br><br><br>
-		<tr>
-			<td>Username</td>
-			<td><input type="Text" name="Username"></td>
-		</tr>
-		<tr>
-			<td>NIM</td>
-			<td><input type="Number" name="NIM"></td>
-		</tr>
-		<tr>
-			<td>Password</td>
-			<td><input type="Password" name="Password"></td>
-		</tr>
-		<tr>
-			<td><input type="Radio" name="Jenis_Kelamin">Laki-laki</td>
-		</tr>
-		<tr>
-			<td><input type="Radio" name="Jenis_Kelamin">Perempuan</td>
-		</tr>
-		<tr>
-			<td><input type="Checkbox" name="setuju">Saya menyetujui persyaratan</td>
-		</tr>
-		<tr>
-			<td><input type="Submit" value="Submit"></td>
-		</tr>
-		<!-- <br><br><br><br><br><br><br><br><br><br>
-	<form align="center">
+	<div class="First">
+	<h1>Data Diri</h1>
+	<form autocomplete="off" method="POST">
+
+	<div class="field">
+		<input  type="Text" name="Username" placeholder="Username">
+		<input type="Number" name="NIM" placeholder="NIM">
+		<input type="Password" name="Password" placeholder="Password" required="required">
+	</div>
+
+	<div class="none">
+		<label class="radio">
+			<input type="Radio" name="Jenis_Kelamin" required="required">Laki-laki
+			<span></span>
+		</label>
+		<label class="radio">
+			<input type="Radio" name="Jenis_Kelamin" required="required">Perempuan
+			<span></span>
+		</label>
+	</div>
+
+	<div class="Submit">
+		<label class="Check">
+		<input type="Checkbox" name="setuju" required="required">Saya menyetujui persyaratan
+		<span></span>
+		</label>
+	</div>
+		<input type="Submit" value="Submit">	
 		
-		<td>Username</td><br>
-		<input type="Text" name="Username"><br><br>
-		<td>NIM</td><br>
-		<input type="Number" name="NIM"><br><br>
-		<td>Password</td><br>
-		<input type="Password" name="Password"><br><br>
-		<input type="Radio" name="Jenis_Kelamin">Laki-laki<br><br>
-		<input type="Radio" name="Jenis_Kelamin">Perempuan<br><br>
-		<input type="Checkbox" name="setuju">Saya menyetujui persyaratan<br><br>
-		<input type="Submit" value="Submit">
-	</form> -->
-	</table>
 	</form>
+	</div>
 </body>
 </html>
