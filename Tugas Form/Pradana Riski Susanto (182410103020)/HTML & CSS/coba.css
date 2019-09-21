@@ -1,0 +1,92 @@
+body{	
+	font-family: sans-serif;
+	background: #5F9EA0
+}
+
+.Biodata{
+	text-align: center;
+	text-transform: uppercase;
+	color: black;
+	text-shadow: 1px 1px #FF69B4;
+	font-size: 14pt;
+}
+
+input{
+	background-color: white;
+	border-radius: 20px;
+}
+
+.kotak_login{
+	float: bottom;
+	width: 400px;
+	height: 350px auto;
+	background:transparent;
+	margin: 80px auto;
+	padding: 30px 20px;
+	border: none;
+	border-radius: 50px;
+}
+
+label{
+font-size: 11pt;
+font-family: serif;
+}
+
+.form_login{
+	box-sizing: border-box;
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+
+.Submit{
+	background:transparent; 
+	font-size:11pt;
+	text-align: center;
+	padding: 3px 3px;
+}
+
+.kotak_login_1{
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin: 80px;
+	padding: 30px 20px;
+	border-radius: 20px;
+	position: relative;
+	top: -500px;
+	left: 130px;
+}
+
+.username{
+
+	width: 150px;
+	height: auto;
+	font-size: 12pt;
+
+}
+
+.Password{
+	width: 150px;
+	height: auto;
+	font-size: 12pt;
+	margin-bottom: 20px;
+}
+.Tulisan_login{
+	text-align: center;
+	text-transform: uppercase;
+	font: white;
+	font-size: 14pt;
+	text-shadow: 1px 1px #FF69B4;
+
+}
+
+.login{
+	background: transparent;
+	font-size: 12pt;
+	text-align: center;
+	padding: 3px 3px;
+	
+}
