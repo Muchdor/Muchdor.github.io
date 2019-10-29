@@ -18,13 +18,15 @@ h1{
 	opacity: 1;
 }
 
+.header{
+	display: flex;
+	justify-content: space-between;
+}
 .awal{
-	width: 180px;
-	height: 80px;
-	position: absolute;
-	right: 70px;
-	top: 70px;
-
+	margin-top: 35px;
+	margin-right: 20px;
+	width: 210px;
+	height: 130px;
 }
 
 ul{
@@ -67,7 +69,7 @@ ul a{
 
 .mainbox{
 	width: auto;
-	height: 1500px;
+	height: 1000px;
 	background: rgba(200,250,255,.3);
 	border-radius: 15px;
 	padding-top: 10px;
@@ -83,7 +85,7 @@ h2 a{
 
 .gambar1{
 	margin-top: 50px;
-	margin-left: 300px;
+	margin-left: 325px;
 	width: 700px;
 	height: 500px;
 }
@@ -91,7 +93,7 @@ h2 a{
 .komentar{
 	background: rgba(255, 255, 255, 1);
 	margin-top: 50px;
-	margin-left: 300px;
-	width: 700px;
-	height: 500px;
+	margin-left: 325px;
+	width: 695px;
+	height: 300px;
 }

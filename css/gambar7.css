@@ -67,7 +67,7 @@ ul a{
 
 .mainbox{
 	width: auto;
-	height: 1500px;
+	height: 1000px;
 	background: rgba(200,250,255,.3);
 	border-radius: 15px;
 	padding-top: 10px;
@@ -92,6 +92,6 @@ h2 a{
 	background: rgba(255, 255, 255, 1);
 	margin-top: 50px;
 	margin-left: 300px;
-	width: 700px;
-	height: 500px;
+	width: 695px;
+	height: 300px;
 }

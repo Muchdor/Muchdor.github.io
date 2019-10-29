@@ -4,11 +4,6 @@ body{
 	background-position: fixed;
 }
 
-.header{
-	display: flex;
-	justify-content: space-between;
-}
-
 h1{
 	height: 80px;
 	margin-top: 63px;
@@ -23,13 +18,6 @@ h1{
 	opacity: 1;
 }
 
-.awal{
-	margin-top: 35px;
-	margin-right: 20px;
-	width: 210px;
-	height: 130px;
-
-}
 
 ul{
 	width: auto;
@@ -54,6 +42,38 @@ ul a{
 	font-family: Rockwell;
 	font-size: 20px;
 }
+h2{
+	text-align: center;
+	margin-left: -20px;
+	font-size: 26pt;
+	font-family: Rockwell;
+}
+p{
+	color: white;
+	margin-top: -10px;
+	font-family: Arial;
+}
+.content{
+	width: 100%;
+	text-align: center;
+}
+
+.gambar{
+	margin: auto;
+}
+.tulisan{
+	margin: auto;
+	text-align: left;
+	color: white;
+	font-size: 16pt;
+	width: 70%;
+}
+.nav
+{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+}
 
 .search{
 	margin-top: -23px;
@@ -69,33 +89,22 @@ ul a{
 	font-family: Rockwell;
 }
 
-.mainbox{
-	width: auto;
-	height: 1200px;
-	background: rgba(200,250,255,.3);
+
+
+.bg{
+	width: 97%;
+	text-align: right;
+	padding:20px;
 	border-radius: 15px;
-	padding-top: 10px;
+	background: rgba(255,255,255,.5);
 }
-
-h2 a{
-	text-decoration: none;
-	color: black;
-	margin-left: 50px;
-	top: 50px;
-	font-size: 20px;
+.img
+{
+	margin: auto;
+	text-align: center;
 }
-
-.gambar1{
-	margin-top: 50px;
-	margin-left: 325px;
-	width: 700px;
-	height: 500px;
-}
-
-.komentar{
-	background: rgba(255, 255, 255, 1);
-	margin-top: 50px;
-	margin-left: 325px;
-	width: 695px;
-	height: 300px;
+.img-m
+{
+	margin-right: 10px;
+	margin-left: 10px;
 }

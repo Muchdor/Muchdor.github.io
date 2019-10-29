@@ -93,16 +93,18 @@ h2 a{
 .bg{
 	text-decoration: none;
 	color: black;
-	margin-right: 50px;
+	margin-right: -5px;
+	margin-left: 5px;
 	top: 100px;
 	font-size: 20px;
 	background: rgba(255, 255, 255,1);
+	width: 1670px;
 	height: 700px;
 	/*padding-top: 10px;*/
 }
 .gambar1{
 	top: 500px;
-	left: 350px;
+	left: 500px;
 	width: 700px;
 	height: 500px;
 }
